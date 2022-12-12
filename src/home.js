@@ -2,6 +2,7 @@ import { createHtmlElement } from "./helpers";
 
 function createHomepage() {
   const main = document.createElement("main");
+  main.classList.add("main");
   const titleKanji = createHtmlElement("h1", null, ["titleKanji"], "四合わせ");
   const title = createHtmlElement("h1", null, ["title"], "SHIAWASE RAMEN");
   const hr = document.createElement("hr");

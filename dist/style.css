@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Yuji Boku");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  background: url("./img/main.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  height: 94px;
+  border-bottom: 2px solid #df2524;
+}
+
+.main {
+  backdrop-filter: grayscale(1) brightness(0.5);
+}
+
+.titleKanji {
+  font-family: "Yuji Boku", sans-serif;
+  color: #df2524;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: #f5f5f5;
+  letter-spacing: 5px;
+}
+
+hr {
+  width: 240px;
+  border: 1px solid #df2524;
+  margin: 24px auto;
+}
+
+.caption {
+  color: #f5f5f5;
+  font-weight: 700;
+}
