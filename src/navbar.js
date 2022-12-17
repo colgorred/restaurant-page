@@ -5,7 +5,7 @@ function createNav() {
   const ul = document.createElement("ul");
 
   navItems.forEach((item) =>
-    ul.appendChild(createHtmlElement("li", null, [item], item))
+    ul.appendChild(createHtmlElement("li", item, [item], item))
   );
 
   const nav = document.createElement("nav");

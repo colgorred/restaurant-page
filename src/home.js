@@ -13,12 +13,19 @@ function createHomepage() {
     ["caption"],
     "Exquisite. Authentic. Japanese Ramen"
   );
+  const menuButton = createHtmlElement(
+    "button",
+    null,
+    ["menuButton"],
+    "View Menu"
+  );
 
   main.appendChild(titleKanji);
   main.appendChild(title);
   main.appendChild(titleSub);
   main.appendChild(hr);
   main.appendChild(caption);
+  main.appendChild(menuButton);
 
   return main;
 }
